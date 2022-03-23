@@ -21,7 +21,7 @@ export const projListDrawer = [
     websiteUrl: "https://bigcatsnft.com/",
     socialUrls: {
       instagram: "https://www.instagram.com/bigcats.nft/?utm_medium=copy_link",
-      linkedin: "#",
+      twitter: "https://mobile.twitter.com/bigcats_nft",
     },
     description1:
       "Legendary for their agility, intelligence, and ferocity, the Big Cats have been prized since the time of the Pyramids. In 2022, the Big Cats have evolved into their final, most dominant form, and are ready to be uncaged — destined to rule the Metaverse.",
@@ -44,7 +44,7 @@ export const projListDrawer = [
     websiteUrl: "#",
     socialUrls: {
       instagram: "https://www.instagram.com/racingsocial_nft/",
-      linkedin: "#",
+      twitter: "https://twitter.com/racingsocialnft",
     },
     description1:
       "Racing Social Club aims to take an exclusive place in the NFT and racing industry. The goal is to build a likeminded community of racing fans and NFT enthusiasts. We will build the RSC brand by adding partnerships with professional racers and growing our network in the industry.",
@@ -64,7 +64,7 @@ export const projListDrawer = [
     websiteUrl: "https://supremekong.com/",
     socialUrls: {
       instagram: "https://www.instagram.com/supremekong.nft/",
-      linkedin: "#",
+      twitter: "https://twitter.com/Supremekongnft",
     },
     description1:
       "The cage of reality has been shaken to the ground, and the blockchain struggles to contain its power. Supreme Kong has been unleashed and is ready to dominate the Metaverse. The Supreme Leader of the Metaverse Kingdom — Supreme Kong. Supreme Kong is an NFT series as limited as it is powerful, only 2000 Supreme Kongs shall be minted.",
@@ -82,10 +82,10 @@ export const projListDrawer = [
     title: "Camp Pluto",
     preview:
       "Camp Pluto is the first ever members-only campground where memberships are bought on the Ethereum blockchain as NFTs",
-    websiteUrl: "#",
+    websiteUrl: "https://camppluto.io/",
     socialUrls: {
-      instagram: "#",
-      linkedin: "#",
+      instagram: "https://www.instagram.com/camp_pluto",
+      twitter: "https://twitter.com/camp_pluto",
     },
     description1:
       "Camp Pluto is a modern way to enjoy nature. Introducing the world's first member-only private campground where memberships are purchased on the blockchain as NFTs.",

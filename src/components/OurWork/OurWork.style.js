@@ -91,6 +91,15 @@ export const OurWorkStyle = styled.section`
       }
     }
   }
+  
+  .main-carousel {
+    .slick-slide {
+
+      &:not(.slick-center) {
+        opacity: .5;
+      }
+    }
+  }
 
   .preview-block {
     .carousel {
@@ -160,7 +169,7 @@ export const DrawerSliderStyle = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
   }
 
   .social {
@@ -178,6 +187,7 @@ export const DrawerSliderStyle = styled.div`
   img {
     width: 100%;
     border-radius: 10px;
+    border: 1px solid ${({ theme }) => theme.colors.darkGrey};
   }
 
   .description {
@@ -187,7 +197,8 @@ export const DrawerSliderStyle = styled.div`
   .img-group {
     display: flex;
 
-    img {
+    .img-wrapper {
+      flex: 1;
       &:first-child {
         margin-right: 24px;
       }
@@ -195,7 +206,7 @@ export const DrawerSliderStyle = styled.div`
   }
 
   .img-margin {
-    margin-top: 24px;
+    margin: 24px 0;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.sm}px) {
@@ -209,7 +220,7 @@ export const DrawerSliderStyle = styled.div`
     .img-group {
       flex-direction: column;
 
-      img {
+      .img-wrapper {
         &:first-child {
           margin-right: 0;
           margin-bottom: 24px;

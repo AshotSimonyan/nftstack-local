@@ -40,6 +40,7 @@ export const WhatWeDoStyle = styled.section`
     color: ${({ theme }) => theme.colors.primary};
     height: 124px;
     padding-bottom: 16px;
+    text-transform: uppercase;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {

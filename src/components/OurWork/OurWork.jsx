@@ -151,7 +151,7 @@ const OurWork = forwardRef(({ onScreen }, ref) => {
       </div>
       <Carousel
         settings={settings}
-        className={`carousel animated ${animationClass}`}
+        className={`main-carousel carousel animated ${animationClass}`}
         asNavFor={nav2}
         ref={slider => (slider1 = slider)}
       >
@@ -201,16 +201,13 @@ const OurWork = forwardRef(({ onScreen }, ref) => {
                     </Button>
                     <ul className="social">
                       <li>
-                        <p>Share</p>
-                      </li>
-                      <li>
-                        <a href={socialUrls.instagram}>
+                        <a href={socialUrls.instagram} target='_blank'>
                           <Icon name="instagram" />
                         </a>
                       </li>
                       <li>
-                        <a href={socialUrls.linkedin}>
-                          <Icon name="linkedin" />
+                        <a href={socialUrls.twitter} target='_blank'>
+                          <Icon name="twitter" />
                         </a>
                       </li>
                     </ul>
@@ -220,8 +217,12 @@ const OurWork = forwardRef(({ onScreen }, ref) => {
                   <img src={gallery.img2} alt="" />
                   <p className="description">{description2}</p>
                   <div className="img-group">
-                    <img src={gallery.img3} alt="" />
-                    <img src={gallery.img4} alt="" />
+                    <div className='img-wrapper'>
+                      <img src={gallery.img3} alt="" />
+                    </div>
+                    <div className='img-wrapper'>
+                      <img src={gallery.img4} alt="" />
+                    </div>
                   </div>
                   {description3 && (
                     <p className="description">{description3}</p>
