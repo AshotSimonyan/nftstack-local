@@ -42,7 +42,7 @@ export const TitleStyle = styled.h1`
         display: inline-block;
         opacity: 0;
         transform-style: preserve-3d;
-        animation: ${letterAppear} 1.2s 0s ease-in-out forwards;
+        animation: ${letterAppear} 1s 0s ease-in-out forwards;
 
         ${getAnimations(letters)}
         &.space {

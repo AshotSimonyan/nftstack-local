@@ -24,7 +24,7 @@ function App() {
 
   const heroScreen = useOnScreen(heroRef)
   const whatWeDoScreen = useOnScreen(whatWeDoRef, [0.4, 0.4])
-  const workScreen = useOnScreen(workRef)
+  const workScreen = useOnScreen(workRef, [0.2, 0.4])
   const contactScreen = useOnScreen(contactRef)
   const haveIdeaScreen = useOnScreen(haveIdeaRef)
   useEffect(() => {

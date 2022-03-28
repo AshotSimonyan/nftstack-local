@@ -151,15 +151,15 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0;
   }
   .fade-in {
-    animation: ${fadeIn} 1s  ease-in forwards;
+    animation: ${fadeIn} .5s  ease-in forwards;
   }
   
-  iframe {
-    pointer-events: none;
-    &[title = 'archetype'] {
-      pointer-events: none;
-    }
-  }
+  //iframe {
+  //  pointer-events: none;
+  //  &[title = 'archetype'] {
+  //    pointer-events: none;
+  //  }
+  //}
   
   
   /*media queries*/
