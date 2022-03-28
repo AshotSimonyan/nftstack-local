@@ -45,20 +45,27 @@ function App() {
   })
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", () => {
-        setFixedButton(window.pageYOffset > 600)
-      })
-    }
+    window.addEventListener("scroll", () => {
+      const hubspotButton = document.getElementById('hubspot-messages-iframe-container')
+      if(window.pageYOffset > 600) {
+        setFixedButton(true)
+        hubspotButton.classList.add('fade-in-button')
+      } else {
+        setFixedButton(false)
+        hubspotButton.classList.remove('fade-in-button')
+      }
+
+    })
   }, [])
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", () => {
-        setFixedButton(window.pageYOffset > 600)
-      })
-    }
-  }, [])
+
+  // useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     window.addEventListener("scroll", () => {
+  //       setFixedButton(window.pageYOffset > 600)
+  //     })
+  //   }
+  // }, [])
 
   useEffect(() => {
     if (scrollTo) {

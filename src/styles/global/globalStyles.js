@@ -161,7 +161,18 @@ export const GlobalStyle = createGlobalStyle`
   //  }
   //}
   
-  
+  .widget-align-right {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s;
+  }
+
+
+
+  .fade-in-button {
+    opacity: 1;
+    visibility: visible;
+  }
   /*media queries*/
   @media(max-width: ${({ theme }) => theme.breakpoints.md}px) {
     h1, .h1 {

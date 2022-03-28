@@ -53,11 +53,5 @@ export const ButtonStyle = styled.button`
       transform: rotate(-90deg) translate(0%, 64px);
       transform-origin: top;
     `}
-
-
-
-  &.fade-in-button {
-    opacity: 1;
-    visibility: visible;
-  }
+  
 `
